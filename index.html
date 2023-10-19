@@ -3,36 +3,39 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
         <title>Landing Page</title>
     </head>
     <body>
-        <header>
-            <nav>
-                <a href="https://github.com/eplp/landing-page-b">GitHub</a>
-                <a href="#portfolio">Portfolio</a>
-                <a href="#contact">Contact</a>
-            </nav>
-        </header>
+        <main>
+            <header>
+                <nav class="nav">
+                    <a href="https://github.com/eplp/landing-page-b">GitHub</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </header>
 
-        <section id="portfolio">
-            <h1>My New Website</h1>
-            <img src="./assets/images/image-1.png" alt="Description of my image" />
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit; repellat eius officiis.</p>
-        </section>
+            <section id="portfolio">
+                <h1>My New Website</h1>
+                <img src="./assets/images/image-1.png" alt="Description of my image" class="my-image"/>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit; repellat eius officiis.</p>
+            </section>
 
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <form>
-                <label for="name">Name:</label>
-                <input id="name" type="text" /><br />
-                <label for="email">Email:</label>
-                <input id="email" type="text" /><br />
-                <input type="button" value="Send" />
-            </form>
-        </section>
+            <section id=contact class="contact">
+                <h2>Contact Me</h2>
+                <form class="form">
+                    <label for="name">Name:</label>
+                    <input id="name" type="text" size="30"/><br />
+                    <label for="email">Email:</label>
+                    <input id="email" type="text" size="30"/><br />
+                    <input type="button" value="SEND" class="button"/>
+                </form>
+            </section>
 
-        <footer>
-            <p>&copy2023 My first landing page, Inc.</p>
-        </footer>
+            <footer>
+                <p>&copy2023 My first landing page, Inc.</p>
+            </footer>
+        </main>
     </body>
 </html>
